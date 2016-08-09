@@ -304,7 +304,7 @@ Pebble.addEventListener('ready', function(e) {
 
     // FIXME: these undefined checks aren't working for some reason.
     if (email !== undefined && password !== undefined) {
-        console.log("got email/pass from localstorage", email, password);
+        //console.log("got email/pass from localstorage", email, password);
         xhrRequest(prefix + 'auth/signin', 'POST',
             function(res) {
                 if (res) {
