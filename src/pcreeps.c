@@ -1,3 +1,12 @@
+/*  Copyright 2016 Dormando.  All rights reserved.
+ *
+ *  Use and distribution licensed under the BSD license.  See
+ *  the LICENSE file for full text.
+ *
+ *  Authors:
+ *      dormando <dormando@rydia.net>
+ */
+
 #include <pebble.h>
 #include <pebble-gbitmap-lib/gbitmap_tools.h>
 
