@@ -1,0 +1,41 @@
+{
+  "name": "pcreeps",
+  "author": "dormando",
+  "version": "1.0.0",
+  "keywords": [
+    "pebble-app"
+  ],
+  "private": true,
+  "dependencies": {
+    "pebble-clay": "^1.0.2",
+    "pebble-gbitmap-lib": "^1.0.1"
+  },
+  "pebble": {
+    "capabilities": [
+      "configurable"
+    ],
+    "displayName": "pcreeps",
+    "uuid": "cf700dd2-1db0-463a-9520-39fc9bd6f950",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "ROOMNAME",
+      "ROOMCOUNT",
+      "TERRAIN",
+      "FRAME",
+      "SWITCH",
+      "dummy"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
